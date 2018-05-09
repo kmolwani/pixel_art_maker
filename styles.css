@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    /* background: grey; */
+    background-image: url(https://static1.squarespace.com/static/536440a8e4b08e20f53caf6e/58a7170129687fa093bf6a57/58a717195016e19bb70b4b18/1487345434858/Udacity_Perspective.jpg?format=1000w);
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    text-decoration: underline;
+    text-decoration-color: black;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 2px solid;
+    border-color: black;
+}
+
+table {
+      box-shadow: 0px 0px 200px rgba(0,0,0,0.5);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    cursor: crosshair;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+input[type=file] {
+    text-align: center;
+}
+
+h3 {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
